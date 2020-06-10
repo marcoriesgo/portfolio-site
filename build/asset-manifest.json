@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c8e8e4fe.chunk.css",
+    "main.js": "/static/js/main.480a2a49.chunk.js",
+    "main.js.map": "/static/js/main.480a2a49.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9a184eb6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9a184eb6.js.map",
+    "static/js/2.5a6d20bc.chunk.js": "/static/js/2.5a6d20bc.chunk.js",
+    "static/js/2.5a6d20bc.chunk.js.map": "/static/js/2.5a6d20bc.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.7c3bb91c781e08545afd33085e787143.js": "/precache-manifest.7c3bb91c781e08545afd33085e787143.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.c8e8e4fe.chunk.css.map": "/static/css/main.c8e8e4fe.chunk.css.map",
+    "static/js/2.5a6d20bc.chunk.js.LICENSE.txt": "/static/js/2.5a6d20bc.chunk.js.LICENSE.txt",
+    "static/media/chronos.png": "/static/media/chronos.4dab5a90.png",
+    "static/media/electrum.png": "/static/media/electrum.32e916cc.png",
+    "static/media/profile.jpg": "/static/media/profile.1941ed46.jpg",
+    "static/media/recipes.png": "/static/media/recipes.d6f3f14f.png",
+    "static/media/remembr.png": "/static/media/remembr.f7b2bb1f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9a184eb6.js",
+    "static/js/2.5a6d20bc.chunk.js",
+    "static/css/main.c8e8e4fe.chunk.css",
+    "static/js/main.480a2a49.chunk.js"
+  ]
+}

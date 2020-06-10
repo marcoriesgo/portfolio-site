@@ -38,7 +38,7 @@ class Dashboard extends Component {
             </div>
             <div className="welcome-container-parent">
                 <img src={profilephoto} alt="Marco's Profile Picture" id="profile-picture" />
-                <h1 id="hello-welcome">Hello, I'm Marco.</h1>
+                <h1 id="hello-welcome">Hey there, I'm Marco.</h1>
                 <h3 id="personal-introduction">I am a full-stack web developer with a passion for building beautiful and user-friendly experiences. Take a look at my portfolio! </h3>
                 <div className="welcome-container-links-container">
                 <IconContext.Provider value={{ className: 'react-icons' }}>
@@ -145,6 +145,9 @@ class Dashboard extends Component {
                         <h5 className="skill-name">Bootstrap</h5>
                     </div>
                 </div>
+            </div>
+            <div className="portfolio-parent-container">
+                <h2 id="portfolio-title">Portfolio</h2>
             </div>
             <div className="contact-parent-container">
                 <h2 id="contact-title">Contact</h2>

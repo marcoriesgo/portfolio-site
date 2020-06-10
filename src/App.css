@@ -18,6 +18,7 @@ body {
   min-height: 80px;
   margin-bottom: 0;
   color: rgba(6,57,84,1);
+  background: #edf2f7;
 }
 
 a {
@@ -198,7 +199,7 @@ a:hover {
 
 
 .contact-parent-container {
-  background: #edf2f7;
+  background: white;
   color: rgba(6,57,84,1);
   min-height: 40vh;
   padding-left: 15%;
@@ -208,7 +209,7 @@ a:hover {
 
 #contact-title {
   padding-top: 30px;
-  margin-top: 10px;
+  margin-top: 0px;
   
 }
 
@@ -249,4 +250,15 @@ a:hover {
 
 #footer-text {
   font-size: 18px;
+}
+
+.portfolio-parent-container {
+  background: #edf2f7;
+  min-height: 85vh;
+  color: rgba(6,57,84,1);
+}
+
+#portfolio-title {
+  margin-top: 0;
+  padding-top: 30px;
 }

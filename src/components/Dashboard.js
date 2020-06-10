@@ -6,7 +6,7 @@ import { AiFillGithub, AiFillLinkedin,  AiOutlineMail } from "react-icons/ai";
 
 import { AiFillSketchCircle, AiFillHtml5 } from "react-icons/ai";
 
-import { DiCss3, DiMongodb, DiRuby, DiPostgresql } from "react-icons/di";
+import { DiCss3, DiMongodb, DiRuby, DiPostgresql, DiJqueryLogo, DiGithub } from "react-icons/di";
 
 import { GrHeroku } from "react-icons/gr";
 
@@ -18,6 +18,10 @@ import { IoLogoJavascript } from "react-icons/io";
 
 import { IconContext } from "react-icons";
 
+import electrum from "../img/electrum.png";
+import chronos from "../img/chronos.png";
+import remembr from "../img/remembr.png";
+import recipes from "../img/recipes.png";
 
 class Dashboard extends Component {
   render() {
@@ -146,6 +150,18 @@ class Dashboard extends Component {
                             </div>
                             <h5 className="skill-name">Bootstrap</h5>
                         </div>
+                        <div className="skill-container">
+                            <div className="skill-icon-container">    
+                                <BsCode size={32}/>
+                            </div>
+                            <h5 className="skill-name">Redux</h5>
+                        </div>
+                        <div className="skill-container">
+                            <div className="skill-icon-container">    
+                                <DiJqueryLogo size={32}/>
+                            </div>
+                            <h5 className="skill-name">JQuery</h5>
+                        </div>
                     </div>
                 </div>
             </Element>
@@ -153,14 +169,168 @@ class Dashboard extends Component {
                 <div className="portfolio-parent-container">
                     <h2 id="portfolio-title">Portfolio</h2>
                     <div className="portfolio-left-project">
-                        <div className="project-card">
-                            <h1>Hello</h1>
-                        </div>
+                        <a href="https://electrum-finance.herokuapp.com/" target="_blank" className="project-card-link">
+                            <div className="project-card">
+                                <div className="project-card-left-container">
+                                    <img src={electrum} alt="Electrum Dashboard" className="project-screenshot"/>
+                                </div>
+                                <div className="project-card-right-container">
+                                    <h4 className="project-name">Electrum</h4>
+                                    <h6 className="project-description">Electrum is an all-in-one personal finance app for users to analyze all of their financial data. Users are able to link and analyze their bank transactions, create and optimize monthly budgets, review monthly bills, and track their investments in real-time. To demo, use "user_good" for username and "pass_good" for password when logging into a bank account.</h6>
+                                    <div className="technologies-used-icons-container">
+                                        <IconContext.Provider value={{ className: 'react-contact-icons' }}>
+                                            <div className="skill-icon-container">    
+                                                <IoLogoJavascript size={32}/>
+                                            </div>
+                                            <div className="skill-icon-container">    
+                                                <AiFillHtml5 size={32}/>
+                                            </div>
+                                            <div className="skill-icon-container">    
+                                                <DiCss3 size={32}/>
+                                            </div>
+                                            <div className="skill-icon-container">    
+                                                <FaNode size={32}/>
+                                            </div>
+                                            <div className="skill-icon-container">    
+                                                <DiMongodb size={32}/>
+                                            </div>
+                                            <div className="skill-icon-container">    
+                                                <FaReact size={32}/>
+                                            </div>
+                                            <div className="skill-icon-container">    
+                                                <GrHeroku size={32}/>
+                                            </div>
+                                            <br />
+                                            <div className="skill-icon-container" id="more-skills-text">    
+                                                <h6> and more.</h6>
+                                            </div>
+                                        </IconContext.Provider>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                     <div className="portfolio-right-project">
-                        
+                        <a href="https://chronos-application.herokuapp.com/" target="_blank" className="project-card-link">
+                            <div className="project-card">
+                                <div className="project-card-left-container">
+                                    <img src={chronos} alt="Electrum Dashboard" className="project-screenshot"/>
+                                </div>
+                                <div className="project-card-right-container">
+                                    <h4 className="project-name">Chronos</h4>
+                                    <h6 className="project-description">Chronos is a network for users to find people willing to exchange time without monetary payments. Users are able to sign up and identify their skill category and find other users to exchange skilled time with. Users can upload their background and leave reviews for users they have worked with. </h6>
+                                    <div className="technologies-used-icons-container">
+                                        <IconContext.Provider value={{ className: 'react-contact-icons' }}>
+                                            <div className="skill-icon-container">    
+                                                <IoLogoJavascript size={32}/>
+                                            </div>
+                                            <div className="skill-icon-container">    
+                                                <AiFillHtml5 size={32}/>
+                                            </div>
+                                            <div className="skill-icon-container">    
+                                                <DiCss3 size={32}/>
+                                            </div>
+                                            <div className="skill-icon-container">    
+                                                <FaNode size={32}/>
+                                            </div>
+                                            <div className="skill-icon-container">    
+                                                <DiMongodb size={32}/>
+                                            </div>
+                                            <div className="skill-icon-container">    
+                                                <FaReact size={32}/>
+                                            </div>
+                                            <div className="skill-icon-container">    
+                                                <GrHeroku size={32}/>
+                                            </div>
+                                            <br />
+                                            <div className="skill-icon-container" id="more-skills-text">    
+                                                <h6> and more.</h6>
+                                            </div>
+                                        </IconContext.Provider>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    
+                    <div className="portfolio-left-project">
+                        <a href="https://remembr-memories.herokuapp.com/" target="_blank" className="project-card-link">
+                            <div className="project-card">
+                                <div className="project-card-left-container">
+                                    <img src={remembr} alt="Electrum Dashboard" className="project-screenshot"/>
+                                </div>
+                                <div className="project-card-right-container">
+                                    <h4 className="project-name">Remembr</h4>
+                                    <h6 className="project-description">Remembr is an application for seniors suffering from early stage dementia in Los Angeles. Members can find professionals they could potentially hire, see other users that are on a similar journey, discover and share new senior friendly places to visit, and see upcoming senior friendly events where they can feel part of a community as they age.</h6>
+                                    <div className="technologies-used-icons-container">
+                                        <IconContext.Provider value={{ className: 'react-contact-icons' }}>
+                                            <div className="skill-icon-container">    
+                                                <IoLogoJavascript size={32}/>
+                                            </div>
+                                            <div className="skill-icon-container">    
+                                                <AiFillHtml5 size={32}/>
+                                            </div>
+                                            <div className="skill-icon-container">    
+                                                <DiCss3 size={32}/>
+                                            </div>
+                                            <div className="skill-icon-container">    
+                                                <FaNode size={32}/>
+                                            </div>
+                                            <div className="skill-icon-container">    
+                                                <DiMongodb size={32}/>
+                                            </div>
+                                            <div className="skill-icon-container">    
+                                                <DiJqueryLogo size={32}/>
+                                            </div>
+                                            <div className="skill-icon-container">    
+                                                <BsBootstrapFill size={32}/>
+                                            </div>
+                                            <br />
+                                            <div className="skill-icon-container" id="more-skills-text">    
+                                                <h6> and more.</h6>
+                                            </div>
+                                        </IconContext.Provider>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div className="portfolio-right-project">
+                        <a href="https://marcoriesgo01.github.io/project-1/" target="_blank" className="project-card-link">
+                            <div className="project-card">
+                                <div className="project-card-left-container">
+                                    <img src={recipes} alt="Electrum Dashboard" className="project-screenshot"/>
+                                </div>
+                                <div className="project-card-right-container">
+                                    <h4 className="project-name">Recipe Discovery</h4>
+                                    <h6 className="project-description">Recipe Discovery is a simple application that allows users to find a dinner recipe based on what type of food they are hoping to eat. The app uses a the Edamam discovery API to generate a random recipe based on the user's inputs. Users can also find a recipe based on calorie intake if they are feeling healthy!</h6>
+                                    <div className="technologies-used-icons-container">
+                                        <IconContext.Provider value={{ className: 'react-contact-icons' }}>
+                                            <div className="skill-icon-container">    
+                                                <IoLogoJavascript size={32}/>
+                                            </div>
+                                            <div className="skill-icon-container">    
+                                                <DiCss3 size={32}/>
+                                            </div>
+                                            <div className="skill-icon-container">    
+                                                <AiFillHtml5 size={32}/>
+                                            </div>
+                                            <div className="skill-icon-container">    
+                                                <DiJqueryLogo size={32}/>
+                                            </div>
+                                            <div className="skill-icon-container">    
+                                                <AiFillGithub size={32}/>
+                                            </div>
+                                            <br />
+                                            <div className="skill-icon-container" id="more-skills-text">    
+                                                <h6> and more.</h6>
+                                            </div>
+                                        </IconContext.Provider>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <h6 id="load-time-warning">*Application load time may be slow due to Heroku free hosting.</h6>
                 </div>
             </Element>
             <Element name="contact">

@@ -149,7 +149,9 @@ class Dashboard extends Component {
             <div className="portfolio-parent-container">
                 <h2 id="portfolio-title">Portfolio</h2>
                 <div className="portfolio-left-project">
-
+                    <div className="project-card">
+                        <h1>Hello</h1>
+                    </div>
                 </div>
                 <div className="portfolio-right-project">
                     

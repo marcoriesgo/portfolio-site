@@ -162,6 +162,9 @@ class Dashboard extends Component {
                     </div>
                 </IconContext.Provider>
             </div>
+            <div className="footer-parent-container">
+                <h6 id="footer-text">© 2020 Marco Riesgo Almonacid. Built with React.js</h6>
+            </div>
         </div>
     );
   }

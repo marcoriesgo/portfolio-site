@@ -15,7 +15,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   margin-top: 0;
   padding-top: 0;
-  height: 80px;
+  min-height: 80px;
   margin-bottom: 0;
   color: rgba(6,57,84,1);
 }
@@ -119,6 +119,7 @@ a:hover {
 .about-parent-container {
   color: rgba(6,57,84,1);
   min-height: 80vh;
+  padding-bottom: 40px;
 }
 
 
@@ -129,6 +130,7 @@ a:hover {
   min-height: 60vh;
   vertical-align: top;
   border-left: 1px solid rgba(6,57,84,1);
+  padding-bottom: 8%;
 }
 
 #about-title {
@@ -136,7 +138,6 @@ a:hover {
 }
 
 #skills-title {
-  width: 500px;
   display: inline-block;
   padding-bottom: 10px;
   margin-top: 0;
@@ -192,4 +193,48 @@ a:hover {
 
 #inline-link:hover {
   text-decoration: underline;
+}
+
+
+
+.contact-parent-container {
+  background: #edf2f7;
+  color: rgba(6,57,84,1);
+  min-height: 40vh;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 3em;
+}
+
+#contact-title {
+  padding-top: 30px;
+  margin-top: 10px;
+  
+}
+
+#contact-message-text {
+  line-height: 50px;
+}
+
+#send-me-email {
+  color: rgba(5,111,146,1);
+}
+
+#send-me-email:hover {
+  text-decoration: underline;
+}
+
+.contact-icon-container {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+#contact-icon {
+  color: rgba(5,111,146,1);
+}
+
+#contact-icon:hover {
+  color: rgba(6,57,84,1);
 }

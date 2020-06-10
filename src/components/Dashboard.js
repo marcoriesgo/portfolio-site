@@ -61,7 +61,7 @@ class Dashboard extends Component {
                 </div>
             </div>
             <div className="about-parent-container">
-                <h1 id="about-title">About</h1>
+                <h2 id="about-title">About</h2>
                 <div className="about-left-container">
                     <img src={profilephoto} alt="Marco's Profile Picture" id="about-me-picture" />
                     <h5>Marco Riesgo Almonacid</h5>
@@ -145,6 +145,22 @@ class Dashboard extends Component {
                         <h5 className="skill-name">Bootstrap</h5>
                     </div>
                 </div>
+            </div>
+            <div className="contact-parent-container">
+                <h2 id="contact-title">Contact</h2>
+                <h5 id="contact-message-text">I'm always looking to learn from others, share ideas, and take on new opportunities. If there is anything you would like to discuss, make sure to <a href="mailto:marco.riesgo.almonacid@live.com" id="send-me-email">send me an email.</a> In the meantime, feel free to check out my Github and LinkedIn</h5>
+                <IconContext.Provider value={{ className: 'react-contact-icons' }}>
+                    <div className="contact-icon-container">
+                            <a href="https://github.com/marcoriesgo01" target="_blank" id="contact-icon">
+                                <AiFillGithub size={55}/>
+                            </a>
+                    </div>
+                    <div className="contact-icon-container">
+                            <a href="https://www.linkedin.com/in/marco-riesgo-almonacid/" target="_blank" id="contact-icon">
+                                <AiFillLinkedin size={55}/>
+                            </a>
+                    </div>
+                </IconContext.Provider>
             </div>
         </div>
     );

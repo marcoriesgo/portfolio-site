@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link, Element } from 'react-scroll'
 
 import profilephoto from "../profile.jpg";
 import { AiFillGithub, AiFillLinkedin,  AiOutlineMail } from "react-icons/ai";
 
 import { AiFillSketchCircle, AiFillHtml5 } from "react-icons/ai";
 
-import { DiCss3, DiMongodb, DiRuby, DiPostgresql, DiJqueryLogo, DiGithub } from "react-icons/di";
+import { DiCss3, DiMongodb, DiRuby, DiPostgresql, DiJqueryLogo } from "react-icons/di";
 
 import { GrHeroku } from "react-icons/gr";
 

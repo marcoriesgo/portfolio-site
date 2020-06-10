@@ -6,7 +6,7 @@
 }
 
 body {
-  
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -22,6 +22,11 @@ body {
 
 a {
   text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: rgb(211, 211, 211);
 }
 
 .navbar-name{
@@ -29,6 +34,7 @@ a {
   padding-top: 20px;
   padding-left: 40px;
   color: rgba(6,57,84,1);
+  font-size: 38px;
 }
 
 #navbar-left-container {
@@ -49,10 +55,141 @@ a {
   display: inline-block;
   margin-right: 50px;
   margin-top: 25px;
+  font-size: 24px;
 }
 
 .welcome-container-parent {
   background-image: linear-gradient( 307deg,  rgba(5,111,146,1) -15.5%, rgba(6,57,84,1) 65.6% );
   margin-top: 0;
-  min-height: 85vh;
+  min-height: 90vh;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+#profile-picture {
+  width: 230px;
+  height: auto;
+  margin-top: 10%;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+#hello-welcome {
+  font-size: 48px;
+  color: white;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+#personal-introduction {
+  font-size: 24px;
+  color: white;
+  line-height: 40px;
+  margin-top: 40px;
+}
+
+.welcome-container-links-container {
+  margin-top: 50px;
+}
+
+#contact-link {
+  width: 50px;
+  height: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: white;
+}
+
+.react-icons {
+  vertical-align: middle;
+  height: 100px;
+}
+
+.mini-icon-container{
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+}
+
+.mini-icon-container:hover {
+  color: rgb(211, 211, 211);
+}
+
+.about-parent-container {
+  color: rgba(6,57,84,1);
+  min-height: 80vh;
+}
+
+
+
+.about-right-container {
+  display: inline-block;
+  width: 60%;
+  min-height: 60vh;
+  vertical-align: top;
+  border-left: 1px solid rgba(6,57,84,1);
+}
+
+#about-title {
+  margin-bottom: 30px;
+}
+
+#skills-title {
+  width: 500px;
+  display: inline-block;
+  padding-bottom: 10px;
+  margin-top: 0;
+}
+
+.skill-container {
+  width: 50%;
+  display: inline-block;
+  margin-bottom: 20px;
+  min-width: 200px;
+}
+
+.skill-icon-container {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.skill-name {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+}
+
+
+.about-left-container {
+  display: inline-block;
+  width: 40%;
+  min-height: 60vh;
+  vertical-align: top;
+  padding-top: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+
+
+#about-me-picture {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid rgba(6,57,84,1);
+}
+
+#about-me-information {
+  margin-top: 30px;
+  line-height: 30px;
+}
+
+#inline-link {
+  color: rgba(5,111,146,1);
+
+}
+
+#inline-link:hover {
+  text-decoration: underline;
 }

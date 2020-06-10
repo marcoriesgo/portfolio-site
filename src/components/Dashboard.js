@@ -36,7 +36,7 @@ class Dashboard extends Component {
                 <div id="navbar-right-container">
                     <Link activeClass="active" className="navbar-link" to="about" spy={true} smooth={true} duration={500} >About</Link>
                     <Link activeClass="active" className="navbar-link" to="portfolio" spy={true} smooth={true} duration={500} >Portfolio</Link>
-                    <a href="https://docdro.id/iF9o6K1" target="_blank" className="navbar-link">Resume</a>
+                    <a href="https://docdro.id/WGvyVdx" target="_blank" className="navbar-link">Resume</a>
                     <Link activeClass="active" className="navbar-link" to="contact" spy={true} smooth={true} duration={500} >Contact</Link>
                     
                 </div>

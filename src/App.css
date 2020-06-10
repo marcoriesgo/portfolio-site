@@ -256,9 +256,27 @@ a:hover {
   background: #edf2f7;
   min-height: 85vh;
   color: rgba(6,57,84,1);
+  padding-bottom: 50px;
 }
 
 #portfolio-title {
   margin-top: 0;
   padding-top: 30px;
+}
+
+.portfolio-left-project {
+  border: 1px solid red;
+  width: 50%;
+  vertical-align: top;
+  display: inline-block;
+  min-height: 400px;
+
+}
+
+.portfolio-right-project {
+  border: 1px solid blue;
+  width: 50%;
+  vertical-align: top;
+  display: inline-block;
+  min-height: 400px;
 }

@@ -280,6 +280,8 @@ a:hover {
   display: inline-block;
   min-height: 400px;
   padding: 2% 2% 2% 2%;
+  min-width: 540px;
+  margin-bottom: 30px;
 
 }
 
@@ -289,12 +291,20 @@ a:hover {
   vertical-align: top;
   display: inline-block;
   min-height: 400px;
+  min-width: 540px;
+  margin-bottom: 30px;
 }
 
 .project-card  {
   background: white;
   width: 100%;
-  min-height: 96%;
+  min-height: 365px;
+  border-radius: 30px;
+  box-shadow: 0 0 21px -5px rgba(0, 0, 0, 0.5);
+}
+
+.project-card:hover  {
+  box-shadow: 0 0 21px -5px rgba(0, 0, 0, 0.8);
 }
 
 h1 {

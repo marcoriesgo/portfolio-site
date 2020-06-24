@@ -168,6 +168,7 @@ class Dashboard extends Component {
             <Element name="portfolio">
                 <div className="portfolio-parent-container">
                     <h2 id="portfolio-title">Portfolio</h2>
+                    <h6>For a quick demo of Electrum and Chronos, use "marco.riesgo.almonacid@live.com" and "password" as the password.</h6>
                     <div className="portfolio-left-project">
                         <a href="https://electrum-finance.herokuapp.com/" target="_blank" className="project-card-link">
                             <div className="project-card">
@@ -220,7 +221,7 @@ class Dashboard extends Component {
                                 <div className="project-card-right-container">
                                     <h4 className="project-name">Chronos</h4>
                                     <a href="https://github.com/marcoriesgo01/chronos-app" target="_blank" id="project-github-link">View Chronos on Github</a>
-                                    <h6 className="project-description">Chronos is a network for users to find people willing to exchange time without monetary payments. Users are able to sign up and identify their skill category and find other users to exchange skilled time with. Users can upload their background and leave reviews for users they have worked with. </h6>
+                                    <h6 className="project-description">Chronos is a network for users to find people willing to exchange time without monetary payments. Users are able to sign up and identify their skill category and find other users to exchange skilled time with. Users can upload their background and leave reviews for users they have worked with.</h6>
                                     <div className="technologies-used-icons-container">
                                         <IconContext.Provider value={{ className: 'react-contact-icons' }}>
                                             <div className="skill-icon-container">    
@@ -263,7 +264,7 @@ class Dashboard extends Component {
                                 <div className="project-card-right-container">
                                     <h4 className="project-name">Remembr</h4>
                                     <a href="https://github.com/marcoriesgo01/Remembr" target="_blank" id="project-github-link">View Remembr on Github</a>
-                                    <h6 className="project-description">Remembr is an application for seniors suffering from early stage dementia in Los Angeles. Members can find professionals they could potentially hire, see other users that are on a similar journey, discover and share new senior friendly places to visit, and see upcoming senior friendly events where they can feel part of a community as they age.</h6>
+                                    <h6 className="project-description">Remembr is an application for seniors suffering from early stage dementia in Los Angeles. Members can find professionals they could potentially hire, see other users that are on a similar journey, discover and share new senior friendly places to visit, and see upcoming senior friendly events where they can feel part of a community as they age. To demo, use "test" for the username and "password" for the password.</h6>
                                     <div className="technologies-used-icons-container">
                                         <IconContext.Provider value={{ className: 'react-contact-icons' }}>
                                             <div className="skill-icon-container">    

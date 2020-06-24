@@ -176,7 +176,7 @@ class Dashboard extends Component {
                                 </div>
                                 <div className="project-card-right-container">
                                     <h4 className="project-name">Electrum</h4>
-                                    <a href="https://github.com/marcoriesgo01/electrum-application" target="_blank">View Electrum on Github</a>
+                                    <a href="https://github.com/marcoriesgo01/electrum-application" target="_blank" id="project-github-link">View Electrum on Github</a>
                                     <h6 className="project-description">Electrum is an all-in-one personal finance app for users to analyze all of their financial data. Users are able to link and analyze their bank transactions, create and optimize monthly budgets, review monthly bills, and track their investments in real-time. To demo, use "user_good" for username and "pass_good" for password when logging into a bank account.</h6>
                                     <div className="technologies-used-icons-container">
                                         <IconContext.Provider value={{ className: 'react-contact-icons' }}>
@@ -219,7 +219,7 @@ class Dashboard extends Component {
                                 </div>
                                 <div className="project-card-right-container">
                                     <h4 className="project-name">Chronos</h4>
-                                    <a href="https://github.com/marcoriesgo01/chronos-app" target="_blank">View Chronos on Github</a>
+                                    <a href="https://github.com/marcoriesgo01/chronos-app" target="_blank" id="project-github-link">View Chronos on Github</a>
                                     <h6 className="project-description">Chronos is a network for users to find people willing to exchange time without monetary payments. Users are able to sign up and identify their skill category and find other users to exchange skilled time with. Users can upload their background and leave reviews for users they have worked with. </h6>
                                     <div className="technologies-used-icons-container">
                                         <IconContext.Provider value={{ className: 'react-contact-icons' }}>
@@ -262,7 +262,7 @@ class Dashboard extends Component {
                                 </div>
                                 <div className="project-card-right-container">
                                     <h4 className="project-name">Remembr</h4>
-                                    <a href="https://github.com/marcoriesgo01/Remembr" target="_blank">View Remembr on Github</a>
+                                    <a href="https://github.com/marcoriesgo01/Remembr" target="_blank" id="project-github-link">View Remembr on Github</a>
                                     <h6 className="project-description">Remembr is an application for seniors suffering from early stage dementia in Los Angeles. Members can find professionals they could potentially hire, see other users that are on a similar journey, discover and share new senior friendly places to visit, and see upcoming senior friendly events where they can feel part of a community as they age.</h6>
                                     <div className="technologies-used-icons-container">
                                         <IconContext.Provider value={{ className: 'react-contact-icons' }}>
@@ -305,7 +305,7 @@ class Dashboard extends Component {
                                 </div>
                                 <div className="project-card-right-container">
                                     <h4 className="project-name">Recipe Discovery</h4>
-                                    <a href="https://github.com/marcoriesgo01/Recipe-Discovery" target="_blank">View Recipe Discovery on Github</a>
+                                    <a href="https://github.com/marcoriesgo01/Recipe-Discovery" target="_blank" id="project-github-link">View Recipe Discovery on Github</a>
                                     <h6 className="project-description">Recipe Discovery is a simple application that allows users to find a dinner recipe based on what type of food they are hoping to eat. The app uses a the Edamam discovery API to generate a random recipe based on the user's inputs. Users can also find a recipe based on calorie intake if they are feeling healthy!</h6>
                                     <div className="technologies-used-icons-container">
                                         <IconContext.Provider value={{ className: 'react-contact-icons' }}>

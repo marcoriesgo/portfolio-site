@@ -168,7 +168,7 @@ class Dashboard extends Component {
             <Element name="portfolio">
                 <div className="portfolio-parent-container">
                     <h2 id="portfolio-title">Portfolio</h2>
-                    <h6>For a quick demo of Electrum and Chronos, use "marco.riesgo.almonacid@live.com" and "password" as the password.</h6>
+                    <h6 id="demo-instructions">For a quick demo of Electrum and Chronos, use "marco.riesgo.almonacid@live.com" and "password" as the password.</h6>
                     <div className="portfolio-left-project">
                         <a href="https://electrum-finance.herokuapp.com/" target="_blank" className="project-card-link">
                             <div className="project-card">

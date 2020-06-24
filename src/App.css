@@ -271,7 +271,7 @@ a:hover {
 #portfolio-title {
   margin-top: 0;
   padding-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .portfolio-left-project {
@@ -382,6 +382,7 @@ h1 {
   text-decoration: underline;
 }
 
-#portfolio-instructions {
+#demo-instructions {
   margin-bottom: 20px;
+  margin-top: 5px;
 }

@@ -306,7 +306,7 @@ class Dashboard extends Component {
                                 </div>
                                 <div className="project-card-right-container">
                                     <h4 className="project-name">Recipe Discovery</h4>
-                                    <a href="https://github.com/marcoriesgo01/Recipe-Discovery" target="_blank" id="project-github-link">View Recipe Discovery on Github</a>
+                                    <a href="https://marcoriesgo01.github.io/Recipe-Discovery/" target="_blank" id="project-github-link">View Recipe Discovery on Github</a>
                                     <h6 className="project-description">Recipe Discovery is a simple application that allows users to find a dinner recipe based on what type of food they are hoping to eat. The app uses a the Edamam discovery API to generate a random recipe based on the user's inputs. Users can also find a recipe based on calorie intake if they are feeling healthy!</h6>
                                     <div className="technologies-used-icons-container">
                                         <IconContext.Provider value={{ className: 'react-contact-icons' }}>
